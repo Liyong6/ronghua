@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/day32-mybatis.iml" filepath="$PROJECT_DIR$/day32-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../day34-net/day34-net.iml" filepath="$PROJECT_DIR$/../day34-net/day34-net.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../day35-servlet/day35-servlet.iml" filepath="$PROJECT_DIR$/../day35-servlet/day35-servlet.iml" />
+    </modules>
+  </component>
+</project>

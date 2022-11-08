@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 
+	mapper: 根元素  sql配置文件的根元素只能是 mapper
+	namespace :命名空间	
+				告诉项目 通过什么路径能够找到我们的mapper文件
+				
+ -->
+<mapper namespace="cn.ronghuanet._01mybatis._01demo.mapper.ProductMapper">
+	<!-- 
+		select:表示查询语句
+		id :  是这个sql的唯一标识 一般和mapper中的方法名一致
+		parameterType: 参数的类型
+		resultType: 返回值类型
+		
+		怎么找到对应的sql语句
+		namespace + id
+	 -->
+	<resultMap id="proMap" type="pro">
+		<id property="id" column="id"/>
+		<result property="name" column="pro"
+	</resultMap>
+
+	<select id="selectById" parameterType="long" resultType="cn.ronghuanet._01mybatis._01demo.domain.Product" >
+		select * from product where id = #{ID}
+	</select>
+	
+	<!-- 如果返回值是一个list的集合  resultType 填的是list中元素的类型-->
+	<select id="selectAll" resultType="cn.ronghuanet._01mybatis._01demo.domain.Product">
+		select * from product 
+	</select>
+	
+	<delete id="delete" parameterType="long">
+		delete from product where id = #{id}
+	</delete>
+
+	<update id="updateById" parameterType="cn.ronghuanet._01mybatis._01demo.domain.Product" >
+		UPDATE  product SET
+						productname = #{productName},
+						dir_id = #{dir_id},
+						saleprice = #{salePrice},
+						supplier = #{supplier},
+						brand = #{brand},
+						cutoff = #{cutoff},
+						costprice = #{costPrice}
+		WHERE id = #{id}
+	</update>
+	<insert id="Save">
+		insert into product(productname,dir_id,saleprice,supplier,brand,cutoff,costprice)
+		value ( #{productName},#{dir_id},#{salePrice},#{supplier},#{brand},#{cutoff},#{costPrice})
+	</insert>
+
+</mapper>

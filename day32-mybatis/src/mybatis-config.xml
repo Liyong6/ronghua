@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "
+http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration><!-- 根标签 -->
+	<!-- 
+		environments: 环境们
+			开发环境: dev
+			测试环境: test
+			正式环境: product
+	-->
+	<typeAliases>
+		<typeAlias type="cn.ronghuanet._01mybatis._01demo.domain.Product" alias="pro"></typeAlias>
+	</typeAliases>
+	
+	<environments default="development">
+		<!-- 配置的某一个环境 -->
+		<environment id="development">
+			<!-- 事务管理器: 使用JDBC的事务 -->
+			<transactionManager type="JDBC" />
+			<!-- 数据源:  POOLED连接池 对应的是PooledDataSource -->
+			<dataSource type="POOLED">
+				<property name="driver" value="com.mysql.jdbc.Driver" />
+				<property name="url" value="jdbc:mysql:///liyongtest" />
+				<property name="username" value="root" />
+				<property name="password" value="12345" />
+			</dataSource>
+		</environment>
+	</environments>
+	<!-- sql配置文件的路径 -->
+	<mappers>
+		<mapper resource="cn/ronghuanet/_01mybatis/_01demo/mapper/ProductMapper.xml" />
+	</mappers> 
+</configuration>
