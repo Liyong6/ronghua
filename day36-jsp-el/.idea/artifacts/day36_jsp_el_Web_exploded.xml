@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="day36-jsp-el:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/day36_jsp_el_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="day36-jsp-el/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="day36-jsp-el" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
