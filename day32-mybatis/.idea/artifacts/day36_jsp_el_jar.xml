@@ -1,0 +1,32 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="day36-jsp-el:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/day36_jsp_el_jar</output-path>
+    <root id="archive" name="day36-jsp-el.jar">
+      <element id="module-output" name="day36-jsp-el" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../apache-tomcat-8.0.49/lib/el-api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../apache-tomcat-8.0.49/lib/jasper.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../apache-tomcat-8.0.49/lib/jsp-api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../apache-tomcat-8.0.49/lib/catalina.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../apache-tomcat-8.0.49/lib/ecj-4.6.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../apache-tomcat-8.0.49/lib/jasper-el.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../apache-tomcat-8.0.49/lib/tomcat-api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../apache-tomcat-8.0.49/lib/tomcat-jni.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../apache-tomcat-8.0.49/lib/catalina-ha.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../apache-tomcat-8.0.49/lib/servlet-api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../apache-tomcat-8.0.49/lib/tomcat-dbcp.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../apache-tomcat-8.0.49/lib/tomcat-jdbc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../apache-tomcat-8.0.49/lib/tomcat-util.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../apache-tomcat-8.0.49/lib/catalina-ant.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../apache-tomcat-8.0.49/lib/tomcat-coyote.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../apache-tomcat-8.0.49/lib/websocket-api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../apache-tomcat-8.0.49/lib/tomcat-i18n-es.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../apache-tomcat-8.0.49/lib/tomcat-i18n-fr.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../apache-tomcat-8.0.49/lib/tomcat-i18n-ja.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../apache-tomcat-8.0.49/lib/annotations-api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../apache-tomcat-8.0.49/lib/catalina-tribes.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../apache-tomcat-8.0.49/lib/tomcat-util-scan.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../apache-tomcat-8.0.49/lib/tomcat-websocket.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../apache-tomcat-8.0.49/lib/catalina-storeconfig.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
